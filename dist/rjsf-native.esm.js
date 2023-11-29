@@ -1,4 +1,5 @@
-import { utils, withTheme } from '@rjsf/core';
+import { withTheme } from '@rjsf/core';
+import { utils } from '@rjsf/utils';
 import React, { createContext, useContext, Component, useState, useEffect } from 'react';
 import { Text, StyleSheet, View, TouchableOpacity, LayoutAnimation, Image, TextInput } from 'react-native';
 import Slider from '@react-native-community/slider';

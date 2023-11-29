@@ -9,19 +9,6 @@
   "files": [
     "dist"
   ],
-  "scripts": {
-    "start": "tsdx watch",
-    "build": "rimraf dist && tsdx build",
-    "test": "tsdx test --passWithNoTests",
-    "lint": "tsdx lint",
-    "prepare": "tsdx build",
-    "prepublish": "yarn build"
-  },
-   "husky": {
-    "hooks": {
-      "pre-commit": "tsdx lint"
-    }
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cbsanchezg/rjsf-native-mx.git"
@@ -56,7 +43,7 @@
     "form",
     "react",
     "rjsf-native"
-  ]
+  ],
   "author": "Carlos Sanchez",  
   "bugs": {
     "url": "https://github.com/cbsanchezg/rjsf-native-mx/issues"
